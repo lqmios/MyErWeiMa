@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39720EF81E232C1800010B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720EF71E232C1800010B87 /* main.m */; };
+		39720EFB1E232C1800010B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720EFA1E232C1800010B87 /* AppDelegate.m */; };
+		39720EFE1E232C1800010B87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720EFD1E232C1800010B87 /* ViewController.m */; };
+		39720F011E232C1800010B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39720EFF1E232C1800010B87 /* Main.storyboard */; };
+		39720F031E232C1800010B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39720F021E232C1800010B87 /* Assets.xcassets */; };
+		39720F061E232C1800010B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39720F041E232C1800010B87 /* LaunchScreen.storyboard */; };
+		39720F111E232C1800010B87 /* MyErWeiMaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720F101E232C1800010B87 /* MyErWeiMaTests.m */; };
+		39720F1C1E232C1800010B87 /* MyErWeiMaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720F1B1E232C1800010B87 /* MyErWeiMaUITests.m */; };
+		39720F351E232CD200010B87 /* NSBundle+STQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720F2B1E232CD200010B87 /* NSBundle+STQRCodeController.m */; };
+		39720F361E232CD200010B87 /* STQRCodeAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720F2D1E232CD200010B87 /* STQRCodeAlert.m */; };
+		39720F371E232CD200010B87 /* STQRCodeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720F2F1E232CD200010B87 /* STQRCodeConst.m */; };
+		39720F381E232CD200010B87 /* STQRCodeController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39720F301E232CD200010B87 /* STQRCodeController.bundle */; };
+		39720F391E232CD200010B87 /* STQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720F321E232CD200010B87 /* STQRCodeController.m */; };
+		39720F3A1E232CD200010B87 /* STQRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720F341E232CD200010B87 /* STQRCodeReaderView.m */; };
+		39720F3D1E23320700010B87 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39720F3C1E23320700010B87 /* ResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39720F0D1E232C1800010B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39720EEB1E232C1800010B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39720EF21E232C1800010B87;
+			remoteInfo = MyErWeiMa;
+		};
+		39720F181E232C1800010B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39720EEB1E232C1800010B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39720EF21E232C1800010B87;
+			remoteInfo = MyErWeiMa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39720EF31E232C1800010B87 /* MyErWeiMa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyErWeiMa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39720EF71E232C1800010B87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39720EF91E232C1800010B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39720EFA1E232C1800010B87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39720EFC1E232C1800010B87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39720EFD1E232C1800010B87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39720F001E232C1800010B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39720F021E232C1800010B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39720F051E232C1800010B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39720F071E232C1800010B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39720F0C1E232C1800010B87 /* MyErWeiMaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyErWeiMaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39720F101E232C1800010B87 /* MyErWeiMaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyErWeiMaTests.m; sourceTree = "<group>"; };
+		39720F121E232C1800010B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39720F171E232C1800010B87 /* MyErWeiMaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyErWeiMaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39720F1B1E232C1800010B87 /* MyErWeiMaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyErWeiMaUITests.m; sourceTree = "<group>"; };
+		39720F1D1E232C1800010B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39720F2A1E232CD200010B87 /* NSBundle+STQRCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+STQRCodeController.h"; sourceTree = "<group>"; };
+		39720F2B1E232CD200010B87 /* NSBundle+STQRCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+STQRCodeController.m"; sourceTree = "<group>"; };
+		39720F2C1E232CD200010B87 /* STQRCodeAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STQRCodeAlert.h; sourceTree = "<group>"; };
+		39720F2D1E232CD200010B87 /* STQRCodeAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STQRCodeAlert.m; sourceTree = "<group>"; };
+		39720F2E1E232CD200010B87 /* STQRCodeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STQRCodeConst.h; sourceTree = "<group>"; };
+		39720F2F1E232CD200010B87 /* STQRCodeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STQRCodeConst.m; sourceTree = "<group>"; };
+		39720F301E232CD200010B87 /* STQRCodeController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = STQRCodeController.bundle; sourceTree = "<group>"; };
+		39720F311E232CD200010B87 /* STQRCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STQRCodeController.h; sourceTree = "<group>"; };
+		39720F321E232CD200010B87 /* STQRCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STQRCodeController.m; sourceTree = "<group>"; };
+		39720F331E232CD200010B87 /* STQRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STQRCodeReaderView.h; sourceTree = "<group>"; };
+		39720F341E232CD200010B87 /* STQRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STQRCodeReaderView.m; sourceTree = "<group>"; };
+		39720F3B1E23320700010B87 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		39720F3C1E23320700010B87 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39720EF01E232C1800010B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39720F091E232C1800010B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39720F141E232C1800010B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39720EEA1E232C1800010B87 = {
+			isa = PBXGroup;
+			children = (
+				39720EF51E232C1800010B87 /* MyErWeiMa */,
+				39720F0F1E232C1800010B87 /* MyErWeiMaTests */,
+				39720F1A1E232C1800010B87 /* MyErWeiMaUITests */,
+				39720EF41E232C1800010B87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39720EF41E232C1800010B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39720EF31E232C1800010B87 /* MyErWeiMa.app */,
+				39720F0C1E232C1800010B87 /* MyErWeiMaTests.xctest */,
+				39720F171E232C1800010B87 /* MyErWeiMaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39720EF51E232C1800010B87 /* MyErWeiMa */ = {
+			isa = PBXGroup;
+			children = (
+				39720F291E232CD200010B87 /* STQRCodeController */,
+				39720EF91E232C1800010B87 /* AppDelegate.h */,
+				39720EFA1E232C1800010B87 /* AppDelegate.m */,
+				39720EFC1E232C1800010B87 /* ViewController.h */,
+				39720EFD1E232C1800010B87 /* ViewController.m */,
+				39720F3B1E23320700010B87 /* ResultViewController.h */,
+				39720F3C1E23320700010B87 /* ResultViewController.m */,
+				39720EFF1E232C1800010B87 /* Main.storyboard */,
+				39720F021E232C1800010B87 /* Assets.xcassets */,
+				39720F041E232C1800010B87 /* LaunchScreen.storyboard */,
+				39720F071E232C1800010B87 /* Info.plist */,
+				39720EF61E232C1800010B87 /* Supporting Files */,
+			);
+			path = MyErWeiMa;
+			sourceTree = "<group>";
+		};
+		39720EF61E232C1800010B87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39720EF71E232C1800010B87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39720F0F1E232C1800010B87 /* MyErWeiMaTests */ = {
+			isa = PBXGroup;
+			children = (
+				39720F101E232C1800010B87 /* MyErWeiMaTests.m */,
+				39720F121E232C1800010B87 /* Info.plist */,
+			);
+			path = MyErWeiMaTests;
+			sourceTree = "<group>";
+		};
+		39720F1A1E232C1800010B87 /* MyErWeiMaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39720F1B1E232C1800010B87 /* MyErWeiMaUITests.m */,
+				39720F1D1E232C1800010B87 /* Info.plist */,
+			);
+			path = MyErWeiMaUITests;
+			sourceTree = "<group>";
+		};
+		39720F291E232CD200010B87 /* STQRCodeController */ = {
+			isa = PBXGroup;
+			children = (
+				39720F2A1E232CD200010B87 /* NSBundle+STQRCodeController.h */,
+				39720F2B1E232CD200010B87 /* NSBundle+STQRCodeController.m */,
+				39720F2C1E232CD200010B87 /* STQRCodeAlert.h */,
+				39720F2D1E232CD200010B87 /* STQRCodeAlert.m */,
+				39720F2E1E232CD200010B87 /* STQRCodeConst.h */,
+				39720F2F1E232CD200010B87 /* STQRCodeConst.m */,
+				39720F301E232CD200010B87 /* STQRCodeController.bundle */,
+				39720F311E232CD200010B87 /* STQRCodeController.h */,
+				39720F321E232CD200010B87 /* STQRCodeController.m */,
+				39720F331E232CD200010B87 /* STQRCodeReaderView.h */,
+				39720F341E232CD200010B87 /* STQRCodeReaderView.m */,
+			);
+			path = STQRCodeController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39720EF21E232C1800010B87 /* MyErWeiMa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39720F201E232C1800010B87 /* Build configuration list for PBXNativeTarget "MyErWeiMa" */;
+			buildPhases = (
+				39720EEF1E232C1800010B87 /* Sources */,
+				39720EF01E232C1800010B87 /* Frameworks */,
+				39720EF11E232C1800010B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyErWeiMa;
+			productName = MyErWeiMa;
+			productReference = 39720EF31E232C1800010B87 /* MyErWeiMa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39720F0B1E232C1800010B87 /* MyErWeiMaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39720F231E232C1800010B87 /* Build configuration list for PBXNativeTarget "MyErWeiMaTests" */;
+			buildPhases = (
+				39720F081E232C1800010B87 /* Sources */,
+				39720F091E232C1800010B87 /* Frameworks */,
+				39720F0A1E232C1800010B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39720F0E1E232C1800010B87 /* PBXTargetDependency */,
+			);
+			name = MyErWeiMaTests;
+			productName = MyErWeiMaTests;
+			productReference = 39720F0C1E232C1800010B87 /* MyErWeiMaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39720F161E232C1800010B87 /* MyErWeiMaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39720F261E232C1800010B87 /* Build configuration list for PBXNativeTarget "MyErWeiMaUITests" */;
+			buildPhases = (
+				39720F131E232C1800010B87 /* Sources */,
+				39720F141E232C1800010B87 /* Frameworks */,
+				39720F151E232C1800010B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39720F191E232C1800010B87 /* PBXTargetDependency */,
+			);
+			name = MyErWeiMaUITests;
+			productName = MyErWeiMaUITests;
+			productReference = 39720F171E232C1800010B87 /* MyErWeiMaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39720EEB1E232C1800010B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LQM;
+				TargetAttributes = {
+					39720EF21E232C1800010B87 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = D9ER9R9RKY;
+					};
+					39720F0B1E232C1800010B87 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 39720EF21E232C1800010B87;
+					};
+					39720F161E232C1800010B87 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 39720EF21E232C1800010B87;
+					};
+				};
+			};
+			buildConfigurationList = 39720EEE1E232C1800010B87 /* Build configuration list for PBXProject "MyErWeiMa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39720EEA1E232C1800010B87;
+			productRefGroup = 39720EF41E232C1800010B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39720EF21E232C1800010B87 /* MyErWeiMa */,
+				39720F0B1E232C1800010B87 /* MyErWeiMaTests */,
+				39720F161E232C1800010B87 /* MyErWeiMaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39720EF11E232C1800010B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39720F061E232C1800010B87 /* LaunchScreen.storyboard in Resources */,
+				39720F031E232C1800010B87 /* Assets.xcassets in Resources */,
+				39720F381E232CD200010B87 /* STQRCodeController.bundle in Resources */,
+				39720F011E232C1800010B87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39720F0A1E232C1800010B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39720F151E232C1800010B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39720EEF1E232C1800010B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39720F361E232CD200010B87 /* STQRCodeAlert.m in Sources */,
+				39720EFE1E232C1800010B87 /* ViewController.m in Sources */,
+				39720F3A1E232CD200010B87 /* STQRCodeReaderView.m in Sources */,
+				39720F391E232CD200010B87 /* STQRCodeController.m in Sources */,
+				39720EFB1E232C1800010B87 /* AppDelegate.m in Sources */,
+				39720EF81E232C1800010B87 /* main.m in Sources */,
+				39720F371E232CD200010B87 /* STQRCodeConst.m in Sources */,
+				39720F351E232CD200010B87 /* NSBundle+STQRCodeController.m in Sources */,
+				39720F3D1E23320700010B87 /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39720F081E232C1800010B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39720F111E232C1800010B87 /* MyErWeiMaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39720F131E232C1800010B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39720F1C1E232C1800010B87 /* MyErWeiMaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39720F0E1E232C1800010B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39720EF21E232C1800010B87 /* MyErWeiMa */;
+			targetProxy = 39720F0D1E232C1800010B87 /* PBXContainerItemProxy */;
+		};
+		39720F191E232C1800010B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39720EF21E232C1800010B87 /* MyErWeiMa */;
+			targetProxy = 39720F181E232C1800010B87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39720EFF1E232C1800010B87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39720F001E232C1800010B87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39720F041E232C1800010B87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39720F051E232C1800010B87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39720F1E1E232C1800010B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39720F1F1E232C1800010B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39720F211E232C1800010B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MyErWeiMa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = erweimalqm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39720F221E232C1800010B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MyErWeiMa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = erweimalqm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39720F241E232C1800010B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyErWeiMaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqm.MyErWeiMaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyErWeiMa.app/MyErWeiMa";
+			};
+			name = Debug;
+		};
+		39720F251E232C1800010B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyErWeiMaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqm.MyErWeiMaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyErWeiMa.app/MyErWeiMa";
+			};
+			name = Release;
+		};
+		39720F271E232C1800010B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyErWeiMaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqm.MyErWeiMaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyErWeiMa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		39720F281E232C1800010B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyErWeiMaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqm.MyErWeiMaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyErWeiMa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39720EEE1E232C1800010B87 /* Build configuration list for PBXProject "MyErWeiMa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39720F1E1E232C1800010B87 /* Debug */,
+				39720F1F1E232C1800010B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39720F201E232C1800010B87 /* Build configuration list for PBXNativeTarget "MyErWeiMa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39720F211E232C1800010B87 /* Debug */,
+				39720F221E232C1800010B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39720F231E232C1800010B87 /* Build configuration list for PBXNativeTarget "MyErWeiMaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39720F241E232C1800010B87 /* Debug */,
+				39720F251E232C1800010B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39720F261E232C1800010B87 /* Build configuration list for PBXNativeTarget "MyErWeiMaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39720F271E232C1800010B87 /* Debug */,
+				39720F281E232C1800010B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39720EEB1E232C1800010B87 /* Project object */;
+}
